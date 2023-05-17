@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Ubuntu, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+main form input {
+    padding: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+main form input:focus,
+main form input:hover {
+    border-color: rgb(125, 190, 255);
+}
+
+main form {
+    display: flex;
+    column-gap: 10px;
+}
+
+main form button {
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 10px;
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+main form button:hover,
+main form button:focus {
+    background-color: rgba(30, 143, 255, 0.85); 
+}
+
+main form button:active {
+    background-color: rgb(3, 93, 184);
+}
+
+footer {
+    text-align: center;
+    line-height: 2;
+    padding: 10px;
+    color: gray;
+    font-size: 0.9rem;
+    border-top: 1px solid lightgray;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header h1 span {
+    font-size: 3rem !important;
+    vertical-align: middle;
+    color: blue;
+}
+
+section{
+    margin-top: 20px;
+}
+
+section > ul > li {
+    padding: 10px;
+    display: flex;
+    vertical-align: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section > ul > li:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+section > ul > li > label {
+    cursor: pointer;
+    flex-grow: 1;
+    user-select: none;
+}
+
+section > ul > li > div {
+    display: flex;
+    gap: 10px;
+}
+
+section > ul > li > div > span:first-child {
+    visibility: hidden;
+}
+
+section > ul > li > div > span:last-child:hover {
+    color: red;
+}
+
+section > ul > li > div > span:first-child:hover {
+    color: green;
+}
+
+section > ul > li:hover div > span:first-child{
+    visibility: visible;
+}
+
+section > ul > li > label > input {
+    visibility: hidden;
+    position: absolute;
+}
+
+section > ul > li > label::before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 1px solid lightgray;
+    vertical-align: middle;
+    border-radius: 4px;
+    margin-right: 5px;
+}
