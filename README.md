@@ -1,24 +1,24 @@
-To-do App
+#To-do App
 
-Technologies Used
+##Technologies Used:
 
 ECMAScript CSS HTML
 
 This is a simple To-do App developed in ECMAScript, HTML and CSS for the graphical user interface (GUI) functionality.This tool can be used to orgaize your tasks od the day.
 
-Features
+##Features
 
     Create new Tasks: Create new tasks with a simple click.
     Delete tasks: Delete unnnecessary tasks.
     Mark completed tasks : after completing the tasks you can mark the tasks that was completed.
 
-Technologies Used
+##Technologies Used
 
     ECMAScript Language: The core programming language used to develop the this Web App, providing a robust and versatile foundation.
     HTML: The MarkUp Language used to sturture graphical user interface.
     CSS: Used to style the GUI.
 
-Installation
+##Installation
 
     Clone the repository
 
@@ -26,7 +26,7 @@ Installation
 
     Build and run the project.
 
-Usage
+##Usage
 
     Launch the this application.
 
@@ -37,7 +37,7 @@ Usage
 
     Thank you!
 
-Contributing
+##Contributing
 
 Contributions are welcome! emailIf you'd like to contribute to this text editor, please follow these steps:
 
@@ -51,7 +51,7 @@ Contributions are welcome! emailIf you'd like to contribute to this text editor,
 
     Submit a pull request detailing your changes.
 
-License
+##License
 
 This project is open-source and free to use, modify, and distribute. Feel free to customize this text editor or use it as a starting point for your own projects.
 
