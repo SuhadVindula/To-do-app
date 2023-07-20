@@ -1,7 +1,7 @@
 To-do App
 
-
 Technologies Used
+
 ECMAScript CSS HTML
 
 This is a simple To-do App developed in ECMAScript, HTML and CSS for the graphical user interface (GUI) functionality.This tool can be used to orgaize your tasks od the day.
